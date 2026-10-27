@@ -90,7 +90,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt  # noqa: E402  (backend must be set first)
 
-from YAADO_Core.Foundation.analysis_base import AnalysisResults, BaseAnalysis, FidelityLevel  # noqa: E402
+from YAADO_Core.Foundation.analysis_base import BaseAnalysisResults, BaseAnalysis, FidelityLevel  # noqa: E402
 from YAADO_Core.Foundation.solver_registry import DEFAULT_REGISTRY  # noqa: E402
 from YAADO_Core.Foundation.vehicle_base import BaseVehicleConfig  # noqa: E402
 
